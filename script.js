@@ -41,14 +41,6 @@ $('#wrapper').show();
             var $catX = parseInt($(cat).css('left').replace('px', ''))
             var $catY = parseInt($(cat).css('top').replace('px', ''))
 
-            // if ($dogX.left + 5 < $catX + $catW ||
-            //     $dogY.top  + 5 < $catY + $catH ||
-            //     $catX + 5 < $dogX.left + $dogW ||
-            //     $catY + 5 < $dogY.top + $dogW) {
-            //     cat.css("left", + 10);
-            //     cat.css("top", + 10);
-            // }
-
             if ($dogX.left < $catX + $catW &&
                 $dogY.top < $catY + $catH &&
                 $catX < $dogX.left + $dogW &&
@@ -80,6 +72,8 @@ $('#wrapper').mousemove(function(e) { //moves dog div to follow cursor
       if ($('.cat').length === 0) {
         $('#wrapper').hide();
         $('#finish').show();
+        $('#done').click(function(event) {
+        document.location.reload()        });
       };
     };
 

@@ -61,7 +61,7 @@ img.bg {
 .end-screen {
   position: absolute;
   top: 150px;
-  left: 225px;
+  left: 320px;
   z-index: 4;
   text-align: center;
 }
@@ -100,11 +100,11 @@ img.bg {
   overflow: hidden;
 }
 .text {
-  font-size: 40px;
+  font-size: 30px;
   display: inline-block;
   color: white;
-  top: 110px;
-  left: 850px;
+  top: 120px;
+  left: 880px;
   position: absolute;
 }
 .btn {

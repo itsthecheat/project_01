@@ -28,6 +28,5 @@ the game is over.</p>
 
 <img height ="300px" width="400px" src ="https://github.com/itsthecheat/project_01/blob/master/Photo%20Nov%2008%2C%209%2002%2054%20AM.jpg">
 <br/>
-<img height ="300px" width="400px" src ="https://github.com/itsthecheat/project_01/blob/master/Photo%20Nov%2008%2C%209%2004%2033%20AM.jpg
-">
+<img height ="300px" width="400px" src ="https://github.com/itsthecheat/project_01/blob/master/Photo%20Nov%2008%2C%209%2004%2033%20AM.jpg">
 

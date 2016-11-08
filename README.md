@@ -6,8 +6,11 @@
 
 <h3>Built with Javascript, jQuery, HTML and CSS</h3>
 
-<p text-align="justify">Move the dog image with the cursor to catch all the cats. 
-When cats are gone, the game is won.</p>
+<ul>
+<li>Move the dog image with the cursor to catch all the cats. 
+When cats are gone, the game is won.</li>
+<li>If timer runs out, game is over</li>
+</ul>
 
 <p text-align="justify">The game relies on collision detection to determine whether 
 the dog is touching the cat. Once able to determine the 

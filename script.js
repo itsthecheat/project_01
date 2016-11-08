@@ -8,12 +8,12 @@ $(document).ready(function() {
 $('#start').click(function(event) {
 $('#splash').hide();
 $('#wrapper').show();
+countDown();
 });
 
     var $dog = $('#dog'); //global variables
     var body = $('#wrapper');
     var $cat = $('.cat');
-
 
 
     function newCat() { //creates a div w/ class cat, appends to body
@@ -78,6 +78,35 @@ $('#wrapper').mousemove(function(e) { //moves dog div to follow cursor
     };
 
 
+
+function countDown() {
+  var counter = 15;
+  setInterval(function(){
+    counter--;
+    if (counter >= 0) {
+      $('#timer').html(counter);
+    }
+    if (counter === 0) {
+      $('#wrapper').hide();
+      $('#finish').show();
+      $('.end-title').text('Game Over!');
+      $('#done').click(function(event) {
+        document.location.reload()        });
+      clearInterval(counter);
+    }
+  }, 1000);
+};
+
+// code help from following resources:
+// http://stackoverflow.com/questions/4847726/how-to-animate-following-the-mouse-in-jquery
+// http://stackoverflow.com/questions/3042092/using-jquery-animate-to-animate-a-div-from-right-to-left
+// https://css-tricks.com/how-to-resizeable-background-image/
+// https://gist.github.com/jaxxreal/7527349
+// https://www.jabari-holder.com/blog/how-to-detect-2-elements-colliding-or-overlapping-in-jquery/
+// http://stackoverflow.com/questions/8619619/creating-a-start-screen-for-a-html5-canvas-game
+// http://css3buttongenerator.com/
+// http://stackoverflow.com/questions/22795248/how-do-i-restart-content-without-refreshing-the-page
+// http://stackoverflow.com/questions/3089475/how-can-i-create-a-5-second-countdown-timer-with-jquery-that-ends-with-a-login-p
 
 
 

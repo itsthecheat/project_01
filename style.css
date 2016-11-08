@@ -1,5 +1,5 @@
 body {
-  background-image: url('images/dark_geometric_@2X.png');
+  background-image: url('images/dark_geometric_@2X.png'); /* subtlepatterns.com */
   font-family: 'Shrikhand', cursive;
 }
 img.bg {
@@ -99,6 +99,17 @@ img.bg {
   position:  absolute;
   overflow: hidden;
 }
+#timer {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  top: 115px;
+  left: 425px;
+  height: 100px;
+  width:  200px;
+  position:  absolute;
+  overflow: hidden;
+}
 .text {
   font-size: 30px;
   display: inline-block;
@@ -106,6 +117,14 @@ img.bg {
   top: 120px;
   left: 880px;
   position: absolute;
+}
+.time-text {
+  font-size: 30px;
+  color: white;
+  top: 120px;
+  left: 350px;
+  position: absolute;
+  z-index: 5;
 }
 .btn {
   -webkit-border-radius: 8;

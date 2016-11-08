@@ -6,10 +6,10 @@
 
 <h3>Built with Javascript, jQuery, HTML and CSS</h3>
 
-1. Move the dog image with the cursor to catch all the cats. 
-   When cats are gone, the game is won.
+<p text-align="justify">Move the dog image with the cursor to catch all the cats. 
+When cats are gone, the game is won.</p>
 
-<p>The game relies on collision detection to determine whether 
+<p text-align="justify">The game relies on collision detection to determine whether 
 the dog is touching the cat. Once able to determine the 
 width, height and x, y coordinates of the elements to detect,
 an if statement can be used to set certain actions to occur

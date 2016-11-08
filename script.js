@@ -81,7 +81,7 @@ $(document).ready(function() {
 
 
     function countDown() {
-        var counter = 15;
+        var counter = 20;
         setInterval(function() {
             counter--;
             if (counter >= 0) {

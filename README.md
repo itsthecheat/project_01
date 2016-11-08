@@ -26,3 +26,4 @@ the score for each cat caught. A check winner function is called
 after the dead cat is removed, if all of the dead cats are gone
 the game is over.</p>
 
+<img src ="https://github.com/itsthecheat/project_01/blob/master/Photo%20Nov%2008%2C%209%2002%2054%20AM.jpg">< /br>

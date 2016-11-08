@@ -1,15 +1,18 @@
 # project_01
 
-Peanut's Cat Chase!
+<h1>Peanut's Cat Chase!</h1>
 
-Objective: Catch all the cats
+<h2>Objective: Catch all the cats</h2>
 
-Built with Javascript, jQuery, HTML and CSS
+<h3>Built with Javascript, jQuery, HTML and CSS</h3>
 
-1. Move the dog image with the cursor to catch all the cats. 
-   When cats are gone, the game is won.
+<ul>
+<li>Move the dog image with the cursor to catch all the cats. 
+When cats are gone, the game is won.</li>
+<li>If timer runs out, game is over</li>
+</ul>
 
-The game relies on collision detection to determine whether 
+<p text-align="justify">The game relies on collision detection to determine whether 
 the dog is touching the cat. Once able to determine the 
 width, height and x, y coordinates of the elements to detect,
 an if statement can be used to set certain actions to occur
@@ -21,5 +24,5 @@ keep tabs on the number caught. Collision detection was turned
 off on the "dead" cats in order to acheive one cat to appear in 
 the score for each cat caught. A check winner function is called
 after the dead cat is removed, if all of the dead cats are gone
-the game is over.
+the game is over.</p>
 
